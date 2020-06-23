@@ -1,0 +1,195 @@
+﻿*
+{ padding: 0;
+margin: 0;
+}
+body{
+    background-image: url(PSX_20200615_132924.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: rgb(10, 169, 209);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(0,0,0);
+}
+.menu-bar ul li{
+    width: 145px;
+    margin: 10px;
+    padding: 15px;  
+    font-size: 20px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.active, .menu-bar ul li:hover
+{ background: #edeff0;
+ border-radius: 3px;
+}
+.menu-bar .fa 
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background:rgb(10, 169, 209);
+    margin-top: 16px;
+    margin-right: -25px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    text-align: center;
+    color: aqua;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dashed #ffffff ;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    font-size: 18px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover
+{
+    color: aqua;
+}
+.intro-text{
+    text-align: center  ;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+border-radius: 10px;
+}
+.menu-bar .fa-angle-down
+{
+    float: right;
+    font-weight: bold, 10px;
+    
+}
+.menu-bar .fa-angle-right
+{
+    float: right;
+    font-weight: bold, 10px;
+}
+.sub-menu-2
+{
+    display: none;
+
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 160px;
+    background:rgb(10, 169, 209);
+}
+.description
+{
+    text-align: left;
+    float: left;
+    padding: 20px;
+
+}
+.flex-container
+{
+    text-align: left;
+    padding: 10px;
+    margin-right: 100px;
+}
+h2{
+    background-color:transparent;
+	border: 3px solid #000000;
+	overflow: hidden;
+	color: mintcream;
+	text-align: center;
+	background-repeat: repeat;
+	width: 300px;
+	height: 50px;
+		font-weight: bold;
+	padding: 10px;
+    margin: 400px;
+    margin-bottom: 100px;
+    margin-top: 250px;
+    margin-left: 450px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+   padding: 90px; 
+   margin-top: -250px;
+   margin-bottom: 250px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 30px;
+   background-color:transparent;
+	border: 3px solid #000000;
+   color: mintcream;
+   width: 700px;
+    height: 50px;
+    padding: 10px;
+    margin: 400px;
+    margin-bottom: -30px;
+    margin-top: -320px;
+    margin-left: 280px;	
+   border-top-right-radius: 40px;
+   border-bottom-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+   font-style: italic;
+}
+h4{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 30px;
+   background-color:transparent;
+	border: 3px solid #000000;
+   color: mintcream;
+   width: 700px;
+    height: 65px;
+    padding: 10px;
+    margin: 400px;
+    margin-bottom: 40px;
+    margin-top: 230px;
+    margin-left: 280px;	
+   border-top-right-radius: 40px;
+   border-bottom-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+   font-style: italic;
+}
+.pics{
+    float: right;
+    margin-right: 30px;
+    margin-top: -500px;
+    margin-bottom: 60px;
+}
+.picture{
+    margin-left: 20px;
+    margin-top: -50px;
+}
+
